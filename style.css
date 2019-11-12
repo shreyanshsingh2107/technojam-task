@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header
+{
+	background: url(img/image%203.jpg);
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.navbar{
+    background-color: #7986CB;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	text-align: center;
+	position: 
+	padding: 20px;
+	
+
+
+}
+
+.navbar a
+{    font-size: 30px;
+	text-decoration: none;
+	color: #000;
+	font-family:  cursive;
+	margin-right: 80px;
+	border: 2px solid transparent;
+	padding: 10px;
+	transition: 0.3s;
+}
+.navbar a:hover
+{
+	transform: rotate(180deg) translateY(-200px);
+    transition: 2s;
+    opacity: 0;
+    filter:blur(20px);
+}
+
+.head-content
+{
+	text-align: center;
+	padding: 50px;
+
+}
+
+.head-content img
+{
+	border-radius: 70%;
+	border: 2px solid #fff;
+}
+
+.head-content img:hover
+{
+	background: #white;
+	border: 2px solid #000;
+}
+
+.name
+{
+	cursor: pointer;
+	font-size: 50px;
+	color: lightseagreen;
+	font-family: 'Leckerli One';
+}
+
+.work
+{
+	cursor: pointer;
+	font-size: 50px;
+	color: darkblue;
+	font-family: 'Arizonia';
+}
+
+  
+  .about-section
+  {
+  	background: url(img/image5.jpg);
+    height: 100vh;
+    width: 100%
+  	 }
+
+  .about-section h2
+  { 
+  	text-align: center;
+  	font-size: 30px;
+    padding: 20px;
+  	font-family: sans-serif;
+    text-decoration: underline;
+  }
+
+
+  .about-section p
+  { 
+  	font-size: 30px;
+  	font-family: 'Pacifico';
+    font-style: italic;
+  	width: 1000px;
+  	text-align: center;
+  	margin: 50px;
+    padding: 100px;
+    color: #2196F3;
+    
+}
+.skills-section
+{
+	background: url(img/image7.jpg);
+	width: 100%;
+	height: 450px;
+	text-align: center;
+
+}
+.skills-section h2
+{   
+	text-decoration: underline;
+	font-size: 30px;
+	font-family: sans-serif;
+	padding: 60px;
+}
+.skills-section img
+{
+	height: 200px;
+	width: 200px;
+	border: 2px solid transparent;
+
+
+
+}
+.skills-section img:hover
+{
+	border: 2px solid #000;
+	transition: 0.3s;
+
+
+}
+
+.contacts-section
+{   
+	background: url(img/image%207.jpg);
+	height: 60vh;
+	text-align: center;
+	padding: 70px;
+	
+}
+.contacts-section h2
+{
+    text-align: center;
+  	font-size: 30px;
+    padding: 20px;
+  	font-family: sans-serif;
+    text-decoration: underline;
+}
+.social-links {
+	margin-top: 100px;
+	overflow: hidden;
+	padding: 0;
+	display: table;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.social-links li {
+	display: inline-table;
+	margin-right: 10px;
+}
+.noir {
+	display: block;
+	background-color: black;
+	padding: 18px;
+    border: 2px, black;
+}
+a {
+    font-style: normal;
+    font-size: 30px;
+	color: violet;
+}
+
+a:hover, a:focus {
+	color: White;
+	text-decoration: none;
+}
